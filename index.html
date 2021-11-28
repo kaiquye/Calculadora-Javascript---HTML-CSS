@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculadora</title>
+    <link href="estilo.css"  rel="stylesheet" >
+    
+</head>
+
+<body>
+
+    <script src="javascript.js"></script>
+ 
+    <main id="mainId">
+
+       
+        <form name="formCaculadora">
+
+
+
+            <input type="text" class="result" name="text1" disabled> </td>
+            <input type="text" class="reload" name="text2" value="C/D" onclick="location.reload()"><br>
+
+
+            <input type="button" class="number" name="text3" value="1" onclick="calcular(text3.value)">
+            <input type="button" class="number" name="text4" value="2" onclick="calcular(text4.value)">
+            <input type="button" class="number" name="text5" value="3" onclick="calcular(text5.value)">
+            <input type="button" id="idmais" class="btnMais" name="btnMais" value="+" onclick="eventoDois()"><br>
+
+            <input type="button" class="number" name="text6" value="4" onclick="calcular(text6.value)">
+            <input type="button" class="number" name="text7" value="5" onclick="calcular(text7.value)">
+            <input type="button" class="number" name="text8" value="6" onclick="calcular(text8.value)">
+            <input type="button" class="btnMenos" name="btnMenos" value="-" onclick="calcular(btnMenos.value)"><br>
+
+
+            <input type="button" class="number" name="text9" value="7" onclick="calcular(text9.value)">
+            <input type="button" class="number" name="text12" value="8" onclick="calcular(text12.value)">
+             
+            <input type="button" class="number" name="text11" value="9" onclick="calcular(text11.value)">  
+            <input type="button" class="btnSomar" name="text10" value="=" onclick="text1.value=eval(text1.value)"><br>
+            <input type="button" id="btn0" class="numberZero" name="text13" value="0" onclick="calcular(text13.value)">
+             
+
+
+
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+</body>
+
+</html>
